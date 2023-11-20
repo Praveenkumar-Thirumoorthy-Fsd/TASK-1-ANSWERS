@@ -1,0 +1,7 @@
+1.Difference between http1.1 vs http2
+ HTTP1.1 loads resources one after the other so if one resource cannot be       loaded it blocks all the other resources behind it
+ HTTP2 is able to use a single TCP connection to send multiple streams od data at once so that no one resource blocks any other resource.
+
+2.Write a blog about objects and its internal representation in Javascript
+ Objects are different than primitive datatypes therefore number,string,boolean,etc.
+ Primitive datatypes contain one value but object can hold many values in form of key value pair these keys can be variable or fumctions and are called properties and methods,respectively in the context of an object.
